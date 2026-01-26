@@ -104,3 +104,24 @@ Other files in the repository (`install.bat`, `update.bat`) are used for install
 ## Author
 
 Glitch872
+
+
+
+
+
+## Legacy / Old Versions
+
+The repository also contains an `old` folder, which holds much older versions of the terminal scripts.  
+
+- Folder: `old/`
+- Example files:
+  - `Setup-old.bat`
+  - `Update-old.bat`
+- Notes:
+  - These scripts create a folder named `Art Project` instead of `Custom CMD Terminal`.
+  - They rely on outdated or dead URLs.
+  - Functionality is limited and may be buggy.
+  - Only kept for historical/reference purposes; **not recommended for use**.
+
+> ⚠️ If you are installing or running the terminal, use the latest scripts (`install.bat`, `update.bat`, `min.bat`) from the main repository. Do **not** use files in `old/`.
+
