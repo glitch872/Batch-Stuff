@@ -8,10 +8,10 @@ title update/install
 cd %userprofile%
 echo .>update-bat
 cd Desktop
-rd /s /q "Art Project"
+rd /s /q "Custom CMD Terminal"
 del update.bat
-md "Art Project"
-cd "Art Project"
+md "Custom CMD Terminal"
+cd "Custom CMD Terminal"
 md .bat
 cd .bat
 cls
@@ -39,7 +39,7 @@ echo :update>>CMD.bat
 echo. >>CMD.bat
 echo echo .^>first-run-bat>>CMD.bat
 echo cd Desktop>>CMD.bat
-echo cd "Art Project">>CMD.bat
+echo cd "Custom CMD Terminal">>CMD.bat
 echo cd .bat>>CMD.bat
 echo cls>>CMD.bat
 echo. >>CMD.bat
@@ -64,7 +64,7 @@ echo FOR /F "delims=" %%%%F IN ('cd') DO SET System32=%%%%F>>CMD.bat
 echo doskey ~2=cd %%System32%%$tcls>>CMD.bat
 echo doskey ~~=goto 2 >>CMD.bat
 echo doskey Boot=goto Boot >>CMD.bat
-echo doskey uninstall=cd %%userprofile%%$tdel first-run-bat$tdel no-update$tcd Desktop$trd /s /q "Art Project"$tcd OneDrive$tcd Desktop$tdel *SCMD.exe$texit>>CMD.bat
+echo doskey uninstall=cd %%userprofile%%$tdel first-run-bat$tdel no-update$tcd Desktop$trd /s /q "Custom CMD Terminal"$tcd OneDrive$tcd Desktop$tdel *SCMD.exe$texit>>CMD.bat
 echo doskey user-level=goto no-admin >>CMD.bat
 echo doskey find=goto find>>CMD.bat
 echo doskey ls=dir /w>>CMD.bat
@@ -144,7 +144,7 @@ echo goto 1 >>CMD.bat
 echo :Boot>>CMD.bat
 echo cd %%userprofile%%>>CMD.bat
 echo cd Desktop>>CMD.bat
-echo cd Art Project\.bat>>CMD.bat
+echo cd Custom CMD Terminal\.bat>>CMD.bat
 echo call CMD.bat>>CMD.bat
 echo goto 1 >>CMD.bat
 echo :no-admin >>CMD.bat
@@ -211,7 +211,7 @@ pause
 
 :skip
 cd Desktop
-cd "Art Project"
+cd "Custom CMD Terminal"
 cd .bat
 rem explorer %cd%
 start CMD
