@@ -52,11 +52,9 @@ A set of batch scripts to create a custom Windows Command Prompt terminal with e
 
 After installation, the folder tree looks like this:
 
-%userprofile%\Desktop\Custom CMD Terminal
-    .bat
-        CMD.bat     # Main terminal script
-        log.bat     # File compiler / directory listing
-
+%userprofile%\Desktop\Custom CMD Terminal\.bat
+%userprofile%\Desktop\Custom CMD Terminal\.bat\CMD.bat
+%userprofile%\Desktop\Custom CMD Terminal\.bat\log.bat
 
 Other files in the repository (`install.bat`, `update.bat`) are used for installation, updates, and minimal setup.
 
