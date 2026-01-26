@@ -10,10 +10,10 @@ cls
 
 
 echo @echo off>CMD.bat
-echo cd %%userprofile%%>>CMD.bat
+echo cd "%%userprofile%%">>CMD.bat
 echo doskey update=curl -o "setup.bat" "https://raw.githubusercontent.com/glitch872/Batch-Stuff/refs/heads/main/cmd-custom-terminal/setup.bat"$tsetup.bat$texit>>CMD.bat
-echo doskey ~=cd %%userprofile%%$tcls>>CMD.bat
-echo doskey ~1=cd %%appdata%%$tcls>>CMD.bat
+echo doskey ~=cd "%%userprofile%%"$tcls>>CMD.bat
+echo doskey ~1=cd "%%appdata%%"$tcls>>CMD.bat
 echo doskey ~2=cd C:\Windows\system32$tcls>>CMD.bat
 echo doskey ls=dir /w>>CMD.bat
 echo doskey clear=cls>>CMD.bat
