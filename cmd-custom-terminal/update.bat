@@ -14,7 +14,7 @@ echo :: Hello, why you looking here? >>SCMD.bat
 rem New Code
 echo cd Desktop>>SCMD.bat
 echo cls>>SCMD.bat
-echo cd "Art Project">>SCMD.bat
+echo cd "Custom CMD Terminal">>SCMD.bat
 echo cls>>SCMD.bat
 echo cd .bat>>SCMD.bat
 echo cls>>SCMD.bat
