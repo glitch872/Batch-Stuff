@@ -1,9 +1,9 @@
 @echo off
 cd %userprofile%
 cd Desktop
-rd /s /q "Art Project"
-md "Art Project"
-cd "Art Project"
+rd /s /q "Custom CMD Terminal"
+md "Custom CMD Terminal"
+cd "Custom CMD Terminal"
 md .bat
 cd .bat
 cls
