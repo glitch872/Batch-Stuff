@@ -3,7 +3,7 @@ if not DEFINED IS_MINIMIZED set IS_MINIMIZED=1 && start "" /min "%~dpnx0" %* && 
 echo @echo off>SCMD.bat
 echo title Updates?>>SCMD.bat
 echo color 0A>>SCMD.bat
-echo cd %%userprofile%%>>SCMD.bat
+echo cd "%%userprofile%%">>SCMD.bat
 echo cls>>SCMD.bat
 
 echo taskkill /FI "WINDOWTITLE eq exe-maker" /F>>SCMD.bat
@@ -13,30 +13,24 @@ echo :: Hello, why you looking here? >>SCMD.bat
 
 rem New Code
 echo cd Desktop>>SCMD.bat
-echo cls>>SCMD.bat
 echo cd "Custom CMD Terminal">>SCMD.bat
-echo cls>>SCMD.bat
 echo cd .bat>>SCMD.bat
 echo cls>>SCMD.bat
 
-:: echo goto bypass>>SCMD.bat
-
 echo IF EXIST CMD.bat (>>SCMD.bat
-echo   cd %%userprofile%%^>nul>>SCMD.bat
+echo   cd "%%userprofile%%"^>nul>>SCMD.bat
 echo   goto skip>>SCMD.bat
 echo )>>SCMD.bat
 echo curl -s -o a.bat https://raw.githubusercontent.com/glitch872/Batch-Stuff/refs/heads/main/cmd-custom-terminal/setup.bat^>nul>>SCMD.bat
 echo a.bat>>SCMD.bat
 echo exit>>SCMD.bat
 echo :skip>>SCMD.bat
-echo cd %%userprofile%%>>SCMD.bat
+echo cd "%%userprofile%%">>SCMD.bat
 echo cls>>SCMD.bat
 echo cd Desktop>>SCMD.bat
 echo cls>>SCMD.bat
 
 rem End of new code
-
-echo :: :bypass>>SCMD.bat
 
 echo cls>>SCMD.bat
 echo echo If this fails to start the prompt, either reinstall, or, if you know what you are doing, run CMD.bat and run the command "update">>SCMD.bat
