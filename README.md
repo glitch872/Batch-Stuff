@@ -4,6 +4,27 @@ A set of batch scripts to create a custom Windows Command Prompt terminal with e
 
 ---
 
+## ⚠️ Security Notice
+
+This project:
+
+- Downloads and executes batch files from this repository.
+- Can auto-update if explicitly enabled.
+- Generates executable files using IExpress.
+- Deletes installer scripts after execution.
+
+If you do not understand or trust this behavior, **DO NOT RUN IT**.
+
+## Trust & Source
+
+Only download scripts from the official repository:
+
+https://github.com/Glitch872/Batch-Stuff
+
+This project does **not** include cryptographic verification.
+Updates are trusted based on the integrity of this repository.
+
+
 ## Features
 
 - **Custom Terminal (`CMD.bat`)**
